@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
+  "key": {    
+    "I": {
+      "item": "oresnith:invar_ingot"
+    }
+  },
+  "result": {
+    "item": "oresnith:invar_chestplate"
+  }
+}

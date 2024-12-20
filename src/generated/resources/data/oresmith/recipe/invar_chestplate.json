@@ -7,10 +7,10 @@
   ],
   "key": {    
     "I": {
-      "item": "oresnith:invar_ingot"
+      "item": "oresmith:invar_ingot"
     }
   },
   "result": {
-    "item": "oresnith:invar_chestplate"
+    "item": "oresmith:invar_chestplate"
   }
 }

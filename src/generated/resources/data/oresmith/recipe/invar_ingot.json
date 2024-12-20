@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "NNN",
+    "NN "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "oresnith:nickel_ingot"
+    }
+  },
+  "result": {
+    "item": "oresnith:invar_ingot"
+  }
+}

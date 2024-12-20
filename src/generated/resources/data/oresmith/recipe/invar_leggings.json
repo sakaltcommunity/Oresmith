@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I",
+    "I I"
+  ],
+  "key": {    
+    "I": {
+      "item": "oresnith:invar_ingot"
+    }
+  },
+  "result": {
+    "item": "oresnith:invar_leggings"
+  }
+}

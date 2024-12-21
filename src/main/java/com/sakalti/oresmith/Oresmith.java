@@ -12,6 +12,9 @@ public class Oresmith implements ModInitializer {
         InvarItem.registerItems();
         InvarArmor.registerArmor();
         InvarTools.registerTools();
+        SapphireTools.registerTools();
+        SapphireArmor.registerArmor();
+        SapphireItem.registerItems();
 
         // 鉱石生成設定の登録
         NickelOreFeature.register();

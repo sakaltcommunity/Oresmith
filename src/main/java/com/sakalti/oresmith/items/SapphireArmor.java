@@ -1,4 +1,4 @@
-package com.sakalti.oresmith;
+package com.sakalti.oresmith.items;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;

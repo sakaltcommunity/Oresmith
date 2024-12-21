@@ -8,11 +8,11 @@ import net.minecraft.util.registry.Registry;
 public class InvarTools {
     public static final ToolMaterial INVAR_TOOL_MATERIAL = new InvarToolMaterial();
 
-    public static final SwordItem INVAR_SWORD = new SwordItem(INVAR_TOOL_MATERIAL, 6, -2.4F, new FabricItemSettings().group(ItemGroup.COMBAT));
-    public static final PickaxeItem INVAR_PICKAXE = new PickaxeItem(INVAR_TOOL_MATERIAL, 1, -2.8F, new FabricItemSettings().group(ItemGroup.TOOLS));
+    public static final SwordItem INVAR_SWORD = new SwordItem(INVAR_TOOL_MATERIAL, 6.3, -2.4F, new FabricItemSettings().group(ItemGroup.COMBAT));
+    public static final PickaxeItem INVAR_PICKAXE = new PickaxeItem(INVAR_TOOL_MATERIAL, 4.3, -2.8F, new FabricItemSettings().group(ItemGroup.TOOLS));
     public static final AxeItem INVAR_AXE = new AxeItem(INVAR_TOOL_MATERIAL, 9, -1.05F, new FabricItemSettings().group(ItemGroup.TOOLS));
-    public static final ShovelItem INVAR_SHOVEL = new ShovelItem(INVAR_TOOL_MATERIAL, 1.5F, -3.0F, new FabricItemSettings().group(ItemGroup.TOOLS));
-    public static final HoeItem INVAR_HOE = new HoeItem(INVAR_TOOL_MATERIAL, -2, -1.0F, new FabricItemSettings().group(ItemGroup.TOOLS));
+    public static final ShovelItem INVAR_SHOVEL = new ShovelItem(INVAR_TOOL_MATERIAL, 4.8F, -3.0F, new FabricItemSettings().group(ItemGroup.TOOLS));
+    public static final HoeItem INVAR_HOE = new HoeItem(INVAR_TOOL_MATERIAL, 2, -1.0F, new FabricItemSettings().group(ItemGroup.TOOLS));
 
     public static void registerTools() {
         Registry.register(Registry.ITEM, new Identifier(Oresmith.MOD_ID, "invar_sword"), INVAR_SWORD);

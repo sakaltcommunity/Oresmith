@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "oresmith:block/nickel_ore"
+    }
+  }
+}
